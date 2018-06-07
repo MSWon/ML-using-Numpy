@@ -17,7 +17,7 @@ def MonteCarlo_pi(n):
     
     in_circle = []
     
-    for iter in range(n):
+    for epoch in range(n):
         
         sample_x = random.uniform(0,1)
         sample_y = random.uniform(0,1)
